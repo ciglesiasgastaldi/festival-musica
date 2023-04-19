@@ -63,7 +63,7 @@ function javascript( done ){
 
 function dev(done){
     watch("src/scss/**/*.scss", css)
-    watch("src/js/**/*.scss", javascript);
+    watch("src/js/**/*.js", javascript);
 
 
 
