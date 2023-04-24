@@ -4,6 +4,7 @@ const { src, dest, watch, parallel} = require("gulp");
 const  sass = require("gulp-sass")(require('sass')); //importa
 const  plumber = require('gulp-plumber');
 
+
 // Imagenes
 const cache = require('gulp-cache');
 const imagemin = require('gulp-imagemin');
